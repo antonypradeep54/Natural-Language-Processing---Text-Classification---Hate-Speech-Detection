@@ -1,0 +1,2 @@
+# Natural-Language-Processing---Text-Classification---Hate-Speech-Detection
+A Natural Language Processing (NLP) project that uses machine learning and text classification to detect hate speech in social media content. The project explores text preprocessing, TF-IDF feature extraction, Logistic Regression, class imbalance handling, hyperparameter tuning and model evaluation to support AI-powered content moderation.
