@@ -32,7 +32,7 @@ The notebook will validate missing values, duplicate texts, conflicting labels a
 
 ### External dataset source
 
-Candidate source: [Twitter Sentiment Analysis — Kaggle](https://www.kaggle.com/datasets/arkhoshghalb/twitter-sentiment-analysis-hatred-speech). Exact row-level equivalence to the original course CSV and redistribution rights have not yet been verified. Download the labeled training CSV (columns `id`, `label`, `tweet`), not the unlabeled test file, extract it if necessary and rename it to `TwitterHate.csv`. Keep it locally or upload it into the Colab runtime's `data/` directory. Do not commit the raw data. Expected original dataset profile (pending verification): 31,962 rows, 29,720 label 0 and 2,242 label 1. Confirm these counts and schema before training; matching counts alone do not establish identical content.
+Dataset source: [Twitter Hate Speech — Kaggle](https://www.kaggle.com/vkrahul/twitter-hate-speech). Redistribution rights have not been verified. Download the labeled training CSV `train_E6oV3lV.csv` (columns `id`, `label`, `tweet`), not the unlabeled test file, extract it if necessary and rename it to `TwitterHate.csv`. Keep it locally or upload it into the Colab runtime's `data/` directory. Do not commit the raw data. Expected original dataset profile (pending verification): 31,962 rows, 29,720 label 0 and 2,242 label 1. Confirm these counts and schema before training; matching counts alone do not establish identical content.
 
 ## 4. Methodology
 
