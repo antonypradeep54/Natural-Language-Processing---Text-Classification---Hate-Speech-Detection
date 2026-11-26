@@ -12,7 +12,7 @@ Social media platforms receive large volumes of user-generated content. Manual r
 
 ## 2. Project Objectives
 
-- Apply tweet-specific text preprocessing and TF-IDF feature extraction.
+- Apply tweet-specific text preprocessing and TF-IDF (Term Frequency–Inverse Document Frequency) feature extraction.
 - Establish a Logistic Regression baseline and evaluate class balancing.
 - Optimize regularization through stratified cross-validation.
 - Evaluate model performance and explain precision-recall trade-offs in terms of business outcomes.
@@ -44,7 +44,7 @@ flowchart TD
     H --> I[Business implications and limitations]
 ```
 
-Tweet preprocessing will use NLTK TweetTokenizer, handle and URL removal, case normalization and hashtag processing while preserving meaningful negation. TF-IDF will use up to 5,000 features and be fitted within training folds to prevent leakage. Duplicate or conflicting normalized texts will be addressed before splitting.
+Tweet preprocessing will use NLTK (Natural Language Toolkit) TweetTokenizer, handle and URL removal, case normalization and hashtag processing while preserving meaningful negation. TF-IDF will use up to 5,000 features and be fitted within training folds to prevent leakage. Duplicate or conflicting normalized texts will be addressed before splitting.
 
 ## 5. Model Development
 
