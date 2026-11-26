@@ -29,6 +29,11 @@ The project uses an authorized local copy of `TwitterHate.csv`, containing the f
 
 The notebook will validate missing values, duplicate texts, conflicting labels and class distribution. The CSV is not distributed in this repository because redistribution permissions have not been verified. See [dataset instructions](data/README.md).
 
+
+### External dataset source
+
+Candidate source: [Twitter Sentiment Analysis — Kaggle](https://www.kaggle.com/datasets/arkhoshghalb/twitter-sentiment-analysis-hatred-speech). Exact row-level equivalence to the original course CSV and redistribution rights have not yet been verified. Download the labeled training CSV (columns `id`, `label`, `tweet`), not the unlabeled test file, extract it if necessary and rename it to `TwitterHate.csv`. Keep it locally or upload it into the Colab runtime's `data/` directory. Do not commit the raw data. Expected original dataset profile (pending verification): 31,962 rows, 29,720 label 0 and 2,242 label 1. Confirm these counts and schema before training; matching counts alone do not establish identical content.
+
 ## 4. Methodology
 
 ```mermaid
