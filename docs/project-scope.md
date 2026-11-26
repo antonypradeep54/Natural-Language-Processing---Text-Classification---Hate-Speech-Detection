@@ -14,7 +14,7 @@ Social media platforms receive large volumes of user-generated content. Manual m
 - Compare model performance and explain precision-recall trade-offs from a product perspective.
 
 ## 4. Dataset
-Input: `data/TwitterHate.csv`.
+Input: `data/TwitterHate.csv`. Download `train_E6oV3lV.csv` from [Twitter Hate Speech — Kaggle](https://www.kaggle.com/vkrahul/twitter-hate-speech) and rename it locally. The unlabeled test CSV is not required.
 Expected fields: `id` (tweet identifier), `label` (0 = non-hate, 1 = hate), and `tweet` (text).
 Validate schema, missing values, labels, duplicates and class distribution before training. The dataset is not included in the public repository because redistribution permissions remain unverified. Users must supply an authorized copy.
 
